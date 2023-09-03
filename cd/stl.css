@@ -1,0 +1,16 @@
+body {
+    background-color: #87afd7;
+}
+
+h1 {
+    text-align: center;
+    padding: 1cm;
+    font-size: 40px;
+    color: #5f5f87;
+}
+
+button {
+    padding: 0cm;
+    margin-left: 2cm;
+    margin-bottom: 1cm;
+}
