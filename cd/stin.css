@@ -1,0 +1,26 @@
+body{
+    background-color: #87afd7;
+}
+
+h1{
+    text-align: center;
+    padding: 1cm;
+    font-size: 30px;
+    color: #5f5f87;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #8787af;
+    text-shadow: 2px 2px 5px #5f5f87;
+}
+
+div {
+    width: 1200px;
+    padding: 10px;
+    border: 2px groove #5f5f87;
+    margin: 1cm;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #8787af;
+  }
