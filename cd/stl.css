@@ -1,12 +1,17 @@
 body {
-    background-color: #87afd7;
+    opacity: 0.9;
+    background-image: url("/img/test.jpg");
 }
 
 h1 {
     text-align: center;
     padding: 1cm;
     font-size: 40px;
-    color: #5f5f87;
+    color: #d7ff00;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #d7ff5f;
+    text-shadow: 2px 2px 5px white; 
 }
 
 button {

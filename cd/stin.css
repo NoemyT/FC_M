@@ -1,26 +1,29 @@
 body{
-    background-color: #87afd7;
+    background-image: url("/img/test.jpg");
 }
 
 h1{
     text-align: center;
     padding: 1cm;
+    padding-top: 3cm;
     font-size: 30px;
-    color: #5f5f87;
+    color: #d7ff00;
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-decoration-color: #8787af;
-    text-shadow: 2px 2px 5px #5f5f87;
+    text-decoration-color: #d7ff5f;
+    text-shadow: 2px 2px 5px white;
 }
 
 div {
     width: 1200px;
     padding: 10px;
-    border: 2px groove #5f5f87;
+    border: 2px groove #d7ff00;
     margin: 1cm;
     align-items: center;
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    background-color: #8787af;
+    background-color: #d7ff5f;
+    text-align: center;
+    font-size: larger;
   }
