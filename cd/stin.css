@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/test.jpg");
+    background-image: url("/img/giphy.gif");
 }
 
 h1{
@@ -28,3 +28,19 @@ div {
     font-size: larger;
     gap: 10px;
   }
+
+button {
+    width: 60px;
+    padding: 29px 0;
+    line-height: 0;
+    margin: 40px auto;
+    border-radius: 50px;
+    background-image: url("/img/icons8-moon-60.png");
+    display: block;
+    font-size: larger;
+    transition: 3s;
+}
+
+button:hover {
+    transform: rotateY(360deg);
+}
