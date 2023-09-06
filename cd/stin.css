@@ -26,4 +26,5 @@ div {
     background-color: #d7ff5f;
     text-align: center;
     font-size: larger;
+    gap: 10px;
   }
