@@ -1,5 +1,4 @@
 body {
-    opacity: 0.9;
     background-image: url("/img/giphy.gif");
 }
 
@@ -18,4 +17,18 @@ button {
     padding: 0cm;
     margin-left: 2cm;
     margin-bottom: 1cm;
+    transition: 2s;
+    transition-delay: -.1s;
+}
+
+button:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
