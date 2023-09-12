@@ -7,18 +7,19 @@ h1{
     padding: 1cm;
     padding-top: 2cm;
     font-size: 30px;
-    color: #d7ff00;
+    color: #ffffff;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #d7ff5f;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px #d7ff00;
 }
 
 div {
     width: 1200px;
     padding: 10px;
     border: 2px groove #d7ff00;
-    margin: 1cm;
+    margin-left: 28px;
+    margin-bottom: 24px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@ div {
     font-size: larger;
     gap: 20px;
     background-color: rgba(215, 255, 95, .5);
-    color: white
+    color: white;
   }
 
 button {

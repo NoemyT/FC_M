@@ -6,16 +6,16 @@ h1 {
     text-align: center;
     padding: 1cm;
     font-size: 40px;
-    color: #d7ff00;
+    color: #ffffff;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #d7ff5f;
-    text-shadow: 2px 2px 5px white; 
+    text-shadow: 2px 2px 5px #d7ff00; 
 }
 
 button {
     padding: 0cm;
-    margin-left: 2cm;
+    margin-left: 85px;
     margin-bottom: 1cm;
     transition: 2s;
     transition-delay: -.1s;
