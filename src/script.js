@@ -1,17 +1,18 @@
-const collapsable = document.querySelectorAll(".sect")
-collapsable.forEach((item) => {
-  item.addEventListener("click", () => {
-    item.classList.toggle("active")
-    const content = item.nextElementSibling
-    const arrow = item.querySelector("i")
-    arrow.classList.toggle("rotate")
-    console.log(arrow)
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null
-      content.style.marginBottom = 0
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px"
-      content.style.marginBottom = "1rem"
-    }
-  })
-})
+document.querySelectorAll('.sect, .video-sect, .book-sect').forEach(item => {
+  item.addEventListener('click', () => {
+      const content = item.nextElementSibling;
+      content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + 'px';
+      item.querySelector('i').classList.toggle('fa-chevron-up');
+  });
+});
+
+document.querySelectorAll('nav a').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
