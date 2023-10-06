@@ -1,83 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Memorabília</title>
-  </head>
-  <body>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#header">Início</a></li>
+            <li><a href="#classes">Aulas</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#books">Livros</a></li>
+        </ul>
+    </nav>
     <section id="header">
-      <h1>MEMORABÍLIA</h1>
+        <h1>MEMORABÍLIA</h1>
+        <p>Um resumo das principais ideias e conceitos abordados nas aulas de Filosofia da Ciência, ministradas pelo professor Arary, na Universidade Federal de Alagoas.</p>
     </section>
-    <main>
-      <div class="content-wrapper">
-        <div class="sect">
-          <p class="date">27 de Junho</p>
-          <div class="summary-button-wrapper">
-            <p>Primeiro dia de aula</p>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
+    <section id="classes">
+        <h2>Aulas</h2>
+        <div class="content-wrapper">
+            <div class="sect">
+                <div class="date-summary">
+                    <p class="date">27 de Junho</p>
+                    <p class="summary">Primeiro dia de aula</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="collapse-content">
+                <p>No dia 27 de Junho, houve a primeira aula de Filosofia da Ciência...</p>
+            </div>
         </div>
-        <div class="collapse-content">
-          <p>
-            No dia 27 de Junho, houve a primeira aula de Filosofia da Ciência.
-            Nela o Professor Arary se apresentou a turma, assim como a turma se
-            apresentou a ele. Em meio as apresentações, que por sinal, foram bem
-            humoradas, eu também me apresentei.
-          </p>
+        <div class="content-wrapper">
+            <div class="sect">
+                <div class="date-summary">
+                    <p class="date">28 de Junho</p>
+                    <p class="summary">Segundo dia de aula</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="collapse-content">
+                <p>No dia 28 de Junho, houve a segunda aula de Filosofia da Ciência...</p>
+            </div>
         </div>
-        <hr />
-      </div>
-      <div class="content-wrapper">
-        <div class="sect">
-          <p class="date">27 de Junho</p>
-          <div class="summary-button-wrapper">
-            <p>Primeiro dia de aula</p>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
+        <div class="content-wrapper">
+            <div class="sect">
+                <div class="date-summary">
+                    <p class="date">29 de Junho</p>
+                    <p class="summary">Terceiro dia de aula</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="collapse-content">
+                <p>No dia 29 de Junho, houve a terceira aula de Filosofia da Ciência...</p>
+            </div>
         </div>
-        <div class="collapse-content">
-          <p>
-            No dia 27 de Junho, houve a primeira aula de Filosofia da Ciência.
-            Nela o Professor Arary se apresentou a turma, assim como a turma se
-            apresentou a ele. Em meio as apresentações, que por sinal, foram bem
-            humoradas, eu também me apresentei.
-          </p>
+    </section>
+    <section id="videos">
+        <h2>Vídeos Sugeridos</h2>
+        <p>Explore os vídeos sugeridos que complementam e expandem os tópicos discutidos em sala de aula.</p>
+        <div class="video-wrapper">
+            <div class="video-sect">
+                <div class="date-summary">
+                    <p class="video-title">jacare</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="video-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2hnc5ES05VY?si=qvZaMNpybpsG_q70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>jacare</p>
+            </div>
         </div>
-        <hr />
-      </div>
-      <div class="content-wrapper">
-        <div class="sect">
-          <p class="date">27 de Junho</p>
-          <div class="summary-button-wrapper">
-            <p>Primeiro dia de aula</p>
-            <i class="fa-solid fa-angle-right"></i>
-          </div>
+        <div class="video-wrapper">
+            <div class="video-sect">
+                <div class="date-summary">
+                    <p class="video-title">Título do Vídeo 2</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="video-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <p>Resumo sobre o vídeo 2...</p>
+            </div>
         </div>
-        <div class="collapse-content">
-          <p>
-            No dia 27 de Junho, houve a primeira aula de Filosofia da Ciência.
-            Nela o Professor Arary se apresentou a turma, assim como a turma se
-            apresentou a ele. Em meio as apresentações, que por sinal, foram bem
-            humoradas, eu também me apresentei.
-          </p>
+        <div class="video-wrapper">
+            <div class="video-sect">
+                <div class="date-summary">
+                    <p class="video-title">Título do Vídeo 3</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="video-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+                <p>Resumo sobre o vídeo 3...</p>
+            </div>
         </div>
-      </div>
-    </main>
+    </section>
+    <section id="books">
+        <h2>Livros Utilizados</h2>
+        <p>Conheça os livros que foram utilizados durante o curso e que podem ser úteis para aprofundar seus conhecimentos.</p>
+        <div class="book-wrapper">
+            <div class="book-sect">
+                <div class="date-summary">
+                    <p class="book-title">Título do Livro 1</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="book-content">
+                <p>Resumo sobre o livro 1...</p>
+            </div>
+        </div>
+        <div class="book-wrapper">
+            <div class="book-sect">
+                <div class="date-summary">
+                    <p class="book-title">Título do Livro 2</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="book-content">
+                <p>Resumo sobre o livro 2...</p>
+            </div>
+        </div>
+        <div class="book-wrapper">
+            <div class="book-sect">
+                <div class="date-summary">
+                    <p class="book-title">Título do Livro 3</p>
+                </div>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="book-content">
+                <p>Resumo sobre o livro 3...</p>
+            </div>
+        </div>
+    </section>
     <footer>
-      <p>Desenvolvido por: <a href="#">Badotes</a></p>
+        <p>Desenvolvido por: <a href="#">GUSTAVO</a></p>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/2c2fa0493e.js"
-      crossorigin="anonymous"
-    ></script>
     <script src="./src/script.js"></script>
-  </body>
+</body>
 </html>
