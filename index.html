@@ -1,147 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Memorabília</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#header">Início</a></li>
-            <li><a href="#classes">Aulas</a></li>
-            <li><a href="#videos">Vídeos</a></li>
-            <li><a href="#books">Livros</a></li>
-        </ul>
-    </nav>
-    <section id="header">
-        <h1>MEMORABÍLIA</h1>
-        <p>Um resumo das principais ideias e conceitos abordados nas aulas de Filosofia da Ciência, ministradas pelo professor Arary, na Universidade Federal de Alagoas.</p>
-    </section>
-    <section id="classes">
-        <h2>Aulas</h2>
-        <div class="content-wrapper">
-            <div class="sect">
-                <div class="date-summary">
-                    <p class="date">27 de Junho</p>
-                    <p class="summary">Primeiro dia de aula</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="collapse-content">
-                <p>No dia 27 de Junho, houve a primeira aula de Filosofia da Ciência...</p>
-            </div>
-        </div>
-        <div class="content-wrapper">
-            <div class="sect">
-                <div class="date-summary">
-                    <p class="date">28 de Junho</p>
-                    <p class="summary">Segundo dia de aula</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="collapse-content">
-                <p>No dia 28 de Junho, houve a segunda aula de Filosofia da Ciência...</p>
-            </div>
-        </div>
-        <div class="content-wrapper">
-            <div class="sect">
-                <div class="date-summary">
-                    <p class="date">29 de Junho</p>
-                    <p class="summary">Terceiro dia de aula</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="collapse-content">
-                <p>No dia 29 de Junho, houve a terceira aula de Filosofia da Ciência...</p>
-            </div>
-        </div>
-    </section>
-    <section id="videos">
-        <h2>Vídeos Sugeridos</h2>
-        <p>Explore os vídeos sugeridos que complementam e expandem os tópicos discutidos em sala de aula.</p>
-        <div class="video-wrapper">
-            <div class="video-sect">
-                <div class="date-summary">
-                    <p class="video-title">jacare</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="video-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2hnc5ES05VY?si=qvZaMNpybpsG_q70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>jacare</p>
-            </div>
-        </div>
-        <div class="video-wrapper">
-            <div class="video-sect">
-                <div class="date-summary">
-                    <p class="video-title">Título do Vídeo 2</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="video-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-                <p>Resumo sobre o vídeo 2...</p>
-            </div>
-        </div>
-        <div class="video-wrapper">
-            <div class="video-sect">
-                <div class="date-summary">
-                    <p class="video-title">Título do Vídeo 3</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="video-content">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-                <p>Resumo sobre o vídeo 3...</p>
-            </div>
-        </div>
-    </section>
-    <section id="books">
-        <h2>Livros Utilizados</h2>
-        <p>Conheça os livros que foram utilizados durante o curso e que podem ser úteis para aprofundar seus conhecimentos.</p>
-        <div class="book-wrapper">
-            <div class="book-sect">
-                <div class="date-summary">
-                    <p class="book-title">Título do Livro 1</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="book-content">
-                <p>Resumo sobre o livro 1...</p>
-            </div>
-        </div>
-        <div class="book-wrapper">
-            <div class="book-sect">
-                <div class="date-summary">
-                    <p class="book-title">Título do Livro 2</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="book-content">
-                <p>Resumo sobre o livro 2...</p>
-            </div>
-        </div>
-        <div class="book-wrapper">
-            <div class="book-sect">
-                <div class="date-summary">
-                    <p class="book-title">Título do Livro 3</p>
-                </div>
-                <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="book-content">
-                <p>Resumo sobre o livro 3...</p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <p>Desenvolvido por: <a href="#">GUSTAVO</a></p>
-    </footer>
-    <script src="./src/script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+			rel="stylesheet"
+			/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+			/>
+		<title>Memorabília</title>
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="#header">Início</a></li>
+				<li><a href="#classes">Aulas</a></li>
+				<li><a href="#videos">Vídeos</a></li>
+				<li><a href="#books">Livros</a></li>
+			</ul>
+		</nav>
+		<section id="header">
+			<h1>MEMORABÍLIA</h1>
+			<p>
+				Um resumo das principais ideias e conceitos abordados nas aulas de
+				Filosofia da Ciência, ministradas pelo professor Arary, na Universidade
+				Federal de Alagoas.
+			</p>
+		</section>
+		<section id="classes">
+			<h2>Aulas</h2>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">27 de Junho</p>
+						<p class="summary">Primeiro dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						No dia 27 de Junho, houve a primeira aula de Filosofia da Ciência. Nela o Professor
+                        Arary se apresentou a turma, assim como a turma se apresentou a ele. As
+                        apresentações foram bem humoradas, com os alunos adicionando algum comentário
+                        extra, que podia ser qualquer coisa, além de seu nome. O professor também
+                        apresentou como funcionaria a disciplina, e falou sobre a produção de uma
+                        memorabilia como trabalho final.
+                    </p>
+                    <p>
+                        Sobre a memorabilia: Segundo o professor, a memorabilia é uma produção referente a
+                        todo o conteúdo visto durante o semestre na disciplina de Filosofia da Ciência. Sua
+                        confecção é da criatividade do aluno, com o professor citando a produção de chat-bots,
+                        cordéis e podcasts. Assim, nossa equipe optou por uma página web, contento o
+                        conteúdo do que foi visto nas aulas, assim como, recomendações de vídeos atrelados
+                        ao conteúdo.
+					</p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">4 de Julho</p>
+						<p class="summary">Segundo dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+                        No dia 4 de Julho, houve a segunda aula de Filosofia da Ciência. Nela o Professor
+                        Arary começou a comentar sobre o surgimento da Filosofia, mencionando alguns dos
+                        filósofos popularmente conhecidos, assim como ela era utilizada e o porquê dela ser
+                        utilizada e como ela impactou na forma de vermos as coisas. Ele também propôs a
+                        leitura do primeiro capítulo de um dos livros de Carl Sagan, Variedades da Experiência
+                        Científica, para a discussão em sala na próxima aula.
+					</p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">11 de Julho</p>
+						<p class="summary">Terceiro dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						No dia 11 de Julho, o professor preferiu cancelar a aula, devido às chuvas que ocorreram no fim de semana.
+					</p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">18 de Julho</p>
+						<p class="summary">Quarto dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+                        Nesta terça-feira, 18 de Julho, o professor comentou alguns aspectos da Filosofia e
+                        como ela está relacionada a Ciência. Próximo ao fim da aula, ele também chegou a
+                        comentar sobre a leitura do primeiro capítulo do livro de Carl Sagan.
+					</p>
+                    <p>
+                        Comentário sobre o 1º capítulo do livro:
+                    </p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">25 de Julho</p>
+						<p class="summary">Quinto dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Em uma aula mais curta, o professor deu uma continuação a conversa sobre a mistura
+                        entre a Filosofia e a Ciência, ele, então, requisitou que fizéssemos a leitura dos três
+                        primeiros capítulos do livro de Fabio Appolinário, Metodologia da Ciência.
+					</p>
+                    <p>
+                        Comentário sobre os 3 primeiros capítulos do livro:
+                    </p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">1 de Agosto</p>
+						<p class="summary">Sexto dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Nesta semana o professor decidiu começar a aula relatando sua opinião quanto a
+                        exposição exagerada de mídias e uma valorização exagerada das mesmas, a exemplo
+                        o filme da Barbie, no espaço público, onde aqui em Arapiraca pessoas se enfileiravam
+                        para tirar fotos no standee de promoção do filme próximo ao cinema. Ele então trouxe
+                        mais de seus pensamentos sobre essas ações e a idolatrização desses caracteres.
+                        Próximo ao fim da aula, ele comentou um pouco sobre os três capítulos do livro de
+                        Fabio Appolinário, recomendado na aula passada.
+					</p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">8 de Agosto</p>
+						<p class="summary">Sétimo dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Infelizmente nenhum dos integrantes da equipe compareceram a esta aula. Porém, na
+                        própria terça, fomos informados de que, o professor requisitou a leitura do livro A
+                        Formação do Espírito Científico, de Gaston Bachelard, o livro deveria ser dividido entre
+                        seus doze capítulos e então, ocorrerem apresentações em equipe. Cada equipe,
+                        composta por três alunos, ficou responsável por apresentar um capítulo.
+					</p>
+                    <p>
+                        Resumo da introdução do livro:
+                    </p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">15 de Agosto</p>
+						<p class="summary">Oitavo dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Como o professor precisou se ausentar. Então, nesta semana não houve
+						aula. As apresentações continuam na semana que vem.
+					</p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">22 de Agosto</p>
+						<p class="summary">Nono dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Nesta aula ocorreram as apresentações das três primeiras equipes (capítulos 1, 2 e 3),
+                        onde foram apresentados a proposta do livro e alguns dos problemas levantados e
+                        experimentos realizados pelo autor.
+					</p>
+                    <p>
+                        Capítulo 1 - Equipe: Danilo, Everton e Marcos Paulo: resumo gpt-4
+                        Capítulo 2 - Equipe: A. Pires, J. Vinicius e Caio Henrique: resumo gpt-4
+                        Capítulo 3 - Equipe: Evellyn, Lara, Kauã: resumo gpt-4
+                    </p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">29 de Agosto</p>
+						<p class="summary">Décimo dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Devido aos concursos que ocorreram nesta semana, e por outros
+						motivos o professor decidiu adiar a aula. Então, nesta semana não
+						houve aula.
+					</p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">5 de Setembro</p>
+						<p class="summary">Décimo primeiro dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Devido à aula ter sido mais curta, somente 2 equipes apresentaram, sendo elas as
+                        equipes onde os 4 membros produzindo este trabalho eram membros, os capítulos
+                        tratados foram o 4 e o 5. O professor mencionou ter gostado de ambas apresentações,
+                        realizando vários comentários após suas conclusões.
+					</p>
+                    <p>
+                        Capítulo 4 - Equipe: Gustavo, Eliedisson, Jairon: resumo gpt-4/ou o eliedisson faz
+                        Capítulo 5 - Equipe: Caio, Noemy, Nicoly: Faço amanhã
+                    </p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">12 de Setembro</p>
+						<p class="summary">Décimo segundo dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Continuando as apresentações, nesta semana as equipes dos capítulos 6, 8 e 9
+                        fizeram suas apresentações. Como de costume, o professor adicionou comentários ao
+                        que foi apresentado pelos alunos, fazendo uma conexão entre os conteúdos tratados
+                        no livro e nossos dias atuais.
+                        OBS: Nenhum dos membros da equipe 7 compareceram à aula, o professor decidiu
+                        continuar com as apresentações mesmo assim.
+					</p>
+                    <p>
+                        Capítulo 6 - Equipe: João Carlos, Riquelme, Isaac Kawan: resumo gpt-4
+                        Capítulo 8 - Equipe: Liedson, Henrique, Jockson: resumo gpt-4
+                        Capítulo 9 - Equipe: Alex Sandro, Arnaldo Lucas, Jaiane: resumo gpt-4
+                    </p>
+				</div>
+			</div>
+			<div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">19 de Setembro</p>
+						<p class="summary">Décimo terceiro dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+						Continuando as apresentações, nesta semana a equipe 7 apresentou seu capítulo,
+                        proporcionando ao professor a oportunidade de comentar sobre a visão de Bachelard
+                        quanto à psicanálise. Outra equipe que apresentou hoje foi a equipe 10, após a
+                        apresentação o professor continuou seus comentários anteriores, onde ele menciona
+                        Freud, e o relacionou ao que foi apresentado.
+					</p>
+                    <p>
+                        Capítulo 7 - Equipe: Leandro, Samuel, Saul: resumo gpt-4
+                        Capítulo 10 - Equipe: Adauto, Alison, Ericlefyson: resumo gpt-4
+                    </p>
+				</div>
+			</div>
+            <div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">29 de Setembro</p>
+						<p class="summary">Décimo quarto dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+                        Nesta semana ocorreram as apresentações das duas ultimas equipes, equipes 11 e 12,
+                        assim houve um fechamento do conteúdo do livro, o professor comentou sobre a ideia
+                        a qual o livro busca apresentar e depois decidiu conversar um pouco com a turma
+                        sobre o que acharam da disciplina durante este período.
+					</p>
+                    <p>
+                        Capítulo 11 - Equipe: Matheus Melo, Arthur Vinícius, João Felipe: resumo gpt-4
+                        Capítulo 12 - Equipe: Jorge Lucas, Mayara; resumo gpt-4                        
+                    </p>
+				</div>
+			</div>
+            <div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">29 de Setembro</p>
+						<p class="summary">Décimo quarto dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+                        Nesta semana, nossa turma foi convidada pelo professor Arary a assistir ao simpósio,
+                        Manifestos diante do Fracasso, que ocorreram durante dois dias, 2 e 3, a nossa turma teve a
+                        oportunidade de assistir à palestra pertinente ao tema, Manifesto diante do fracasso: ética
+                        onde ele junto aos professores, VICENTE JOSÉ BARRETO GUIMARAES, LUCIANO
+                        ACCIOLY LEMOS MOREIRA e o coordenador MARCONI TABOSA DE ANDRADE, exibiram
+                        sua visão sobre a ética capitalista ou o capitalismo da ética.
+					</p>
+				</div>
+			</div>
+            <div class="content-wrapper">
+				<div class="sect">
+					<div class="date-summary">
+						<p class="date">29 de Setembro</p>
+						<p class="summary">Décimo quarto dia de aula</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="collapse-content">
+					<p>
+                        Esta semana não houve aula de Filosofia da Ciência, pois o professor Arary precisou atender
+                        um evento, que ocorreu nos dias 9, 10 e 11. Com isso as aulas de FC chegam a um fim,
+                        veremos o professor Arary em Ética no 7º período.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="videos">
+			<h2>Vídeos Sugeridos</h2>
+			<p>
+				Explore os vídeos sugeridos que complementam e expandem os tópicos
+				discutidos em sala de aula.
+			</p>
+			<div class="video-wrapper">
+				<div class="video-sect">
+					<div class="date-summary">
+						<p class="video-title">jacare</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="video-content">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/2hnc5ES05VY?si=qvZaMNpybpsG_q70"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+						></iframe>
+					<p>jacare</p>
+				</div>
+			</div>
+			<div class="video-wrapper">
+				<div class="video-sect">
+					<div class="date-summary">
+						<p class="video-title">Título do Vídeo 2</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="video-content">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/VIDEO_ID"
+						frameborder="0"
+						allowfullscreen
+						></iframe>
+					<p>Resumo sobre o vídeo 2...</p>
+				</div>
+			</div>
+			<div class="video-wrapper">
+				<div class="video-sect">
+					<div class="date-summary">
+						<p class="video-title">Título do Vídeo 3</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="video-content">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/VIDEO_ID"
+						frameborder="0"
+						allowfullscreen
+						></iframe>
+					<p>Resumo sobre o vídeo 3...</p>
+				</div>
+			</div>
+		</section>
+		<section id="books">
+			<h2>Livros Utilizados</h2>
+			<p>
+				Conheça os livros que foram utilizados durante o curso e que podem ser
+				úteis para aprofundar seus conhecimentos.
+			</p>
+			<div class="book-wrapper">
+				<div class="book-sect">
+					<div class="date-summary">
+						<p class="book-title">Título do Livro 1</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="book-content">
+					<p>Resumo sobre o livro 1...</p>
+				</div>
+			</div>
+			<div class="book-wrapper">
+				<div class="book-sect">
+					<div class="date-summary">
+						<p class="book-title">Título do Livro 2</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="book-content">
+					<p>Resumo sobre o livro 2...</p>
+				</div>
+			</div>
+			<div class="book-wrapper">
+				<div class="book-sect">
+					<div class="date-summary">
+						<p class="book-title">Título do Livro 3</p>
+					</div>
+					<i class="fas fa-chevron-right"></i>
+				</div>
+				<div class="book-content">
+					<p>Resumo sobre o livro 3...</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Desenvolvido por: <a href="#">GUSTAVO</a></p>
+		</footer>
+		<script src="./src/script.js"></script>
+	</body>
 </html>

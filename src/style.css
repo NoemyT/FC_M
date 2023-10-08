@@ -1,9 +1,11 @@
+
 :root {
-  --bg-color: #5465FF;
-  --bg-darker: #788BFF;
-  --bg-light: #9BB1FF;
-  --font-color: #E2FDFF;
-  --alt-white: #f5f5f5;
+  --bg-color: #FFFFFC;
+  --nav-bg-darker: #000000;
+  --nav-bg-light: #FF7F11;
+  --font-color: #ffffff;
+  --alt-white: #FFFFFF;
+  --accent-color: #FF3F00;
 }
 
 * {
@@ -15,43 +17,42 @@
 body {
   font-family: "Quicksand", sans-serif;
   background-color: var(--bg-color);
-  color: var(--font-color);
+  color: var(--nav-bg-darker);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 nav {
-    background-color: var(--bg-darker);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
+  background-color: var(--nav-bg-darker);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
 }
 
 nav a {
-    display: block;
-    color: var(--font-color);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: var(--font-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav a:hover {
-    background-color: var(--bg-light);
-    color: var(--bg-color);
+  background-color: var(--nav-bg-light);
+  color: var(--alt-white);
 }
-
 
 section {
   padding: 20px;
@@ -62,19 +63,23 @@ section {
 #header h1 {
   font-size: 6rem;
   padding-top: 10rem;
+  color: var(--nav-bg-darker);
 }
 
 h2 {
   font-size: 3rem;
   margin-bottom: 20px;
+  color: var(--accent-color);
+  padding-bottom: 100px;
 }
 
 .content-wrapper, .video-wrapper, .book-wrapper {
-  margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10px;
+  background-color: var(--alt-white);
+  margin-bottom: 20px;
 }
 
 .sect, .video-sect, .book-sect {
@@ -82,7 +87,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  border-bottom: 2px solid var(--font-color);
+  border-bottom: 2px solid var(--nav-bg-darker);
   padding: 10px;
 }
 
@@ -101,7 +106,7 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: var(--bg-darker);
+  background-color: var(--nav-bg-darker);
   color: var(--alt-white);
   width: 100%;
 }
@@ -110,8 +115,9 @@ i {
   transition: transform 0.2s ease-out;
 }
 
-i.fa-chevron-up, i.fa-pause {
-  transform: rotate(180deg);
+.rotate {
+  transform: rotate(90deg);
+  transition: transform 0.2s ease-out;
 }
 
 .date-summary {
@@ -120,11 +126,38 @@ i.fa-chevron-up, i.fa-pause {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #header h1 {
+      font-size: 4rem;
+      padding-top: 5rem;
+  }
+
+  h2 {
       font-size: 2rem;
   }
-  section {
-      width: 95%;
-  }
+}
+
+.video-sect {
+  justify-content: center;
+  text-align: left;
+}
+
+.video-content {
+  text-align: center;
+}
+
+.video-content p {
+  max-width: 800px;
+  margin: auto;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.video-sect {
+  justify-content: space-between;
+  align-items: center;
 }
