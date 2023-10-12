@@ -1,7 +1,18 @@
-# FC_M
+# Memorabilia de Filosofia da Ciência
 
-- Repositório contendo os códigos produzidos para a disciplina de Filosofia da Ciência, mais precisamente os códigos para a memorabília requisitada como a nota da AB2;
+## Sobre o Projeto
 
-- Aluna: Noemy Torres Pereira / Mátricula: 22112110;
+Este projeto, desenvolvido como uma memorabilia para a disciplina de Filosofia da Ciência, serve como uma representação digital dos aprendizados, descobertas e momentos significativos experimentados pela equipe durante o curso. Ele encapsula os insights, conhecimentos e reflexões adquiridos ao longo do semestre, proporcionando uma revisão e um espaço para a contemplação e a partilha das jornadas individuais e coletivas na exploração da filosofia da ciência.
 
-- Observação: O "site" não possui nenhum tipo de monetização, com todas as imagens, sendo utilizadas somente para ilustração.
+## Equipe
+
+Desenvolvido por estudantes da Universidade Federal de Alagoas, Campus Arapiraca, sob a orientação do Professor Arary Lima Galvão de Oliveira. A equipe é composta pelos seguintes membros:
+
+- **Caio Teixeira da Silva** - Matrícula: 22112243
+- **Eliedisson de Lima Silva** - Matrícula: 22110821
+- **Gustavo Henrique dos Santos Malaquias** - Matrícula: 22111978
+- **Noemy Torres Pereira** - Matrícula: 22112110
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
