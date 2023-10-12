@@ -69,7 +69,6 @@ h2 {
   font-size: 3rem;
   margin-bottom: 20px;
   color: var(--accent-color);
-  padding-bottom: 100px;
 }
 
 .content-wrapper,
@@ -208,3 +207,90 @@ video {
 }
   
 
+
+/* Responsive Design Additions */
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for tablets and mobile phones */
+    body {
+        font-size: 16px;
+    }
+    #header h1 {
+        font-size: 3rem;
+        padding-top: 5rem;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+    section {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for mobile phones */
+    nav {
+        position: static;
+    }
+    nav ul {
+        background-color: var(--nav-bg-darker);
+    }
+    nav a {
+        color: var(--font-color);
+    }
+    nav a:hover {
+        background-color: var(--nav-bg-light);
+    }
+}
+
+/* Hamburger Menu Styles */
+
+#menu-btn {
+    display: none;
+    font-size: 2rem;
+    color: var(--font-color);
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+}
+
+#nav-container {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-btn {
+        display: block;
+    }
+    #nav-container {
+        display: none;
+        background-color: var(--nav-bg-darker);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+    }
+    #nav-container ul {
+        flex-direction: column;
+    }
+    #nav-container a {
+        padding: 20px;
+        font-size: 1.5rem;
+        color: var(--font-color);
+    }
+    #nav-container a:hover {
+        background-color: var(--nav-bg-light);
+    }
+}
