@@ -1,11 +1,10 @@
-
 :root {
-  --bg-color: #FFFFFC;
+  --bg-color: #fffffc;
   --nav-bg-darker: #000000;
-  --nav-bg-light: #FF7F11;
+  --nav-bg-light: #ff7f11;
   --font-color: #ffffff;
-  --alt-white: #FFFFFF;
-  --accent-color: #FF3F00;
+  --alt-white: #ffffff;
+  --accent-color: #ff3f00;
 }
 
 * {
@@ -73,7 +72,9 @@ h2 {
   padding-bottom: 100px;
 }
 
-.content-wrapper, .video-wrapper, .book-wrapper {
+.content-wrapper,
+.video-wrapper,
+.book-wrapper {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
@@ -82,7 +83,9 @@ h2 {
   margin-bottom: 20px;
 }
 
-.sect, .video-sect, .book-sect {
+.sect,
+.video-sect,
+.book-sect {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,7 +94,9 @@ h2 {
   padding: 10px;
 }
 
-.collapse-content, .video-content, .book-content {
+.collapse-content,
+.video-content,
+.book-content {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
@@ -99,7 +104,9 @@ h2 {
   padding-top: 10px;
 }
 
-.collapse-content p, .video-content p, .book-content p {
+.collapse-content p,
+.video-content p,
+.book-content p {
   margin-top: 10px;
 }
 
@@ -128,13 +135,14 @@ i {
 
 @media screen and (max-width: 768px) {
   #header h1 {
-      font-size: 4rem;
-      padding-top: 5rem;
+    font-size: 4rem;
+    padding-top: 5rem;
   }
 
   h2 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
+
 }
 
 .video-sect {
@@ -161,3 +169,42 @@ video {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Button */
+
+#group-btn {
+  margin-top: 20px;
+  padding: 0.5rem 1rem;
+  border-style: none;
+  border-radius: 0.5rem;
+}
+
+/* Team */
+
+
+
+#team {
+  max-width: 75vw;
+  margin-bottom: 1rem;
+}
+
+#charas-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  margin-top: 1em;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  #charas-container {
+    flex-direction: column;
+  }
+}
+  
+
